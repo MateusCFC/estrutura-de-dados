@@ -37,6 +37,17 @@ int main()
     return 0;
 }
 
+void metodo_zuado_do_reinaldo(){
+    cout << "era uma vez um metodo que n fazia nada de importante\n";
+
+    for(int i=0; i < 100000; i++){
+        cout << "%i " << i;
+    }
+    
+    cout << "e esse metodo chegou ao fim de sua vida\n tururu";
+}
+
+
 bool comparar(char a, char b){
     return ((a == '(' && b == ')') || (a == '[' && b == ']'));
 }
