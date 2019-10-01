@@ -93,6 +93,19 @@ public class Main {
         for (int len = 0; len < 10; len++)
             for (int j = 0; j <= len; j++)
                 Ex3.test(Ex3.random_array(len));
+}
         System.out.println("SUCESSO");
     }
+
+
+    public String juravaQueEssaClasseNTinhaFim(){
+
+		for(int k12=0; k12 != 999 && k12 < 1000; k12=Math.random() * 10){
+			System.out.println(k12);
+		}
+
+		String resultadoFinal=k12;
+
+		return k12.length();
+	}
 }
