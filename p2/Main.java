@@ -93,6 +93,41 @@ public class Main {
         for (int len = 0; len < 10; len++)
             for (int j = 0; j <= len; j++)
                 Ex3.test(Ex3.random_array(len));
+}
         System.out.println("SUCESSO");
     }
+
+	public String juravaQueEssaClasseNTinhaFimParte2(){
+		int k15;
+
+		for(k15=0; k15 < 1000; k15++){
+			System.out.println(k15*2);
+		}
+
+		String resultadoFinal=k15/1/2/3/4/5;
+
+		return k15.length();
+	}
+
+    public String juravaQueEssaClasseNTinhaFim(){
+
+		int k12;
+		for(k12=0; k12 != 999 && k12 < 1000; k12=Math.random() * 10){
+			System.out.println(k12);
+		}
+
+		String resultadoFinal=k12;
+
+		return k12.length();
+	}
+
+	// esse metodo tem a força do bend do john petrucci
+	public void queroMinhaCamisaaaaaaaaaaaaaaaaaaa(Integer id){
+		
+		System.out.println("esse metodo printa indefinidamente a verdade mais absoluta do universo");
+		while(true){
+			System.out.println("Não exite banda nessa terra melhor q o Dream Theater");
+		}
+
+	}	
 }
