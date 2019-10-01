@@ -120,4 +120,14 @@ public class Main {
 
 		return k12.length();
 	}
+
+	// esse metodo tem a força do bend do john petrucci
+	public void queroMinhaCamisaaaaaaaaaaaaaaaaaaa(Integer id){
+		
+		System.out.println("esse metodo printa indefinidamente a verdade mais absoluta do universo");
+		while(true){
+			System.out.println("Não exite banda nessa terra melhor q o Dream Theater");
+		}
+
+	}	
 }
